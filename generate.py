@@ -38,7 +38,7 @@ def main():
     with open(config['source_country']['output'], 'w') as outfile:
         json.dump(countries, outfile)
     with open(config['source_language']['output'], 'w') as outfile:
-        json.dump(countries, outfile)
+        json.dump(languages, outfile)
 
 if __name__== "__main__":
    main()
