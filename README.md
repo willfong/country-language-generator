@@ -14,7 +14,7 @@ This script generates dictionary lookup for native names for countries and langu
 ```
 
 **Languages**:
-```json
+```
 { 'de': {'de': 'Deutsch', 'en': 'German', 'th': 'เยอรมัน', 'zh': '德文'},
   'en': {'de': 'Englisch', 'en': 'English', 'th': 'อังกฤษ', 'zh': '英文'},
   'th': {'de': 'Thailändisch', 'en': 'Thai', 'th': 'ไทย', 'zh': '泰文'},
