@@ -1,11 +1,12 @@
 import yaml
 import json
+import pprint
 import requests
-from os import path
 
 stream = open('config.yml', 'r') 
 config = yaml.safe_load(stream)
 
+pp = pprint.PrettyPrinter(indent=2)
 
 def parse_git(source, language, configlist, retval):
     url = f"{source['path']}/{language}/{source['filename']}"
@@ -31,8 +32,8 @@ def main():
         parse_git(config['source_country'], language, config['countries'], countries) 
         parse_git(config['source_language'], language, config['languages'], languages)
 
-    print(countries)
-    print(languages)
+    pp.pprint(countries)
+    pp.pprint(languages)
 
     with open(config['source_country']['output'], 'w') as outfile:
         json.dump(countries, outfile)

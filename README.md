@@ -3,13 +3,22 @@
 This script generates dictionary lookup for native names for countries and languages.
 
 **Countries**:
-```json
-{'us': {'en': 'United States', 'de': 'Vereinigte Staaten', 'zh': '美国', 'th': 'สหรัฐอเมริกา'}, 'de': {'en': 'Germany', 'de': 'Deutschland', 'zh': '德国', 'th': 'เยอรมนี'}, 'cn': {'en': 'China', 'de': 'China', 'zh': '中国', 'th': 'จีน'}, 'th': {'en': 'Thailand', 'de': 'Thailand', 'zh': '泰国', 'th': 'ไทย'}}
+```
+{ 'cn': {'de': 'China', 'en': 'China', 'th': 'จีน', 'zh': '中国'},
+  'de': {'de': 'Deutschland', 'en': 'Germany', 'th': 'เยอรมนี', 'zh': '德国'},
+  'th': {'de': 'Thailand', 'en': 'Thailand', 'th': 'ไทย', 'zh': '泰国'},
+  'us': { 'de': 'Vereinigte Staaten',
+          'en': 'United States',
+          'th': 'สหรัฐอเมริกา',
+          'zh': '美国'}}
 ```
 
 **Languages**:
 ```json
-{'en': {'en': 'English', 'de': 'Englisch', 'zh': '英文', 'th': 'อังกฤษ'}, 'de': {'en': 'German', 'de': 'Deutsch', 'zh': '德文', 'th': 'เยอรมัน'}, 'zh': {'en': 'Chinese', 'de': 'Chinesisch', 'zh': '中文', 'th': 'จีน'}, 'th': {'en': 'Thai', 'de': 'Thailändisch', 'zh': '泰文', 'th': 'ไทย'}}
+{ 'de': {'de': 'Deutsch', 'en': 'German', 'th': 'เยอรมัน', 'zh': '德文'},
+  'en': {'de': 'Englisch', 'en': 'English', 'th': 'อังกฤษ', 'zh': '英文'},
+  'th': {'de': 'Thailändisch', 'en': 'Thai', 'th': 'ไทย', 'zh': '泰文'},
+  'zh': {'de': 'Chinesisch', 'en': 'Chinese', 'th': 'จีน', 'zh': '中文'}}
 ```
 
 The currently supported output is JSON. These files can be hard coded into an application.
