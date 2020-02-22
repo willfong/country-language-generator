@@ -42,3 +42,9 @@ The currently supported output is JSON. These files can be hard coded into an ap
 
 - https://github.com/umpirsky/country-list
 - https://github.com/umpirsky/language-list
+
+
+## Lookup
+
+- https://github.com/umpirsky/country-list/blob/master/data/en/country.csv
+- https://github.com/umpirsky/language-list/blob/master/data/en/language.csv
