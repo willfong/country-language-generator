@@ -1,0 +1,23 @@
+source_country:
+  path: https://raw.githubusercontent.com/umpirsky/country-list/master/data
+  filename: country.json
+  uckeys: True
+  output: countries.json
+
+source_language:
+  path: https://raw.githubusercontent.com/umpirsky/language-list/master/data
+  filename: language.json
+  uckeys: False
+  output: languages.json
+
+languages:
+- en
+- de
+- zh
+- th
+
+countries:
+- us
+- de
+- cn
+- th
