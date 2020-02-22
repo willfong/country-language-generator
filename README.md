@@ -40,7 +40,5 @@ The currently supported output is JSON. These files can be hard coded into an ap
 
 ## Data Source
 
-https://github.com/umpirsky/country-list
-https://github.com/umpirsky/language-list
-
-
+- https://github.com/umpirsky/country-list
+- https://github.com/umpirsky/language-list
